@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Find Movies - In progress 🎥🍿
 
-## Getting Started
+<img alt="find movies image" src="public/assets/images/project-preview.webp">
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- [Project Brief](#project-brief)
+- [Technical Details](#technical-details)
+- [Setup](#setup)
+
+## Project Brief
+
+🔍 **Find Movies** is an application that bridges the gap between cinematic wonders and avid viewers. Delivering a seamless exploration experience to users, it allows them to discover, search, and delve deep into the intriguing realms of movies and TV series.
+
+## Technical details
+
+🔧 **API**: [OMDB](https://www.omdbapi.com/) API is used to fetch Movies and TV series.
+
+💅 **Styling**: [Tailwind CSS](https://tailwindcss.com/) is used for styling all the screens.
+
+## Setup
+
+🚀 **Clone the repo** by running the following command:
+
+```sh
+git clone https://github.com/thejsdeveloper/find-movies.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+📂 **Go to the project directory**:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```sh
+cd find-movies
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+💻 **Install the dependencies**:
 
-## Learn More
+```sh
+yarn install
 
-To learn more about Next.js, take a look at the following resources:
+# or
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+npm install
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+🏃 **Run the project locally**:
 
-## Deploy on Vercel
+```sh
+yarn dev
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# or
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+npm run dev
+```
+
+🌐 **Go to the browser**:
+
+Navigate to `http://localhost:3000` to see the app.
+
+Feel free to contribute and follow the licensing guidelines! 😄📝
