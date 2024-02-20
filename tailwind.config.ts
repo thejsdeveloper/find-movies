@@ -9,31 +9,24 @@ const config: Config = {
   theme: {
     extend: {
       fontSize: {
-        "2.8xl": "46px",
-        "1.75xl": "28px",
+        "2.5xl": "2.5rem",
+        "1.31xl": "1.31rem",
       },
       colors: {
-        blue: {
-          dark: "#13163D",
-          DEFAULT: "#3B199C",
-          gray: "#4950AE",
-          light: "#8F95EE",
+        primary: {
+          DEFAULT: "#FDD835",
+          light: "#ffeb3b",
         },
-        white: {
-          DEFAULT: "#FFFFFF",
+        gray: {
+          "900": "#212121",
+          DEFAULT: "#F5F5F5",
+          "60": "rgba(245, 245, 245, 0.6)",
+          "36": "rgba(255, 255, 255, 0.36)",
+          "16": "rgba(255, 255, 255, 0.16)",
         },
-        red: {
-          DEFAULT: "#E24040",
-        },
-        green: {
-          DEFAULT: "#44C651",
-        },
-        violet: {
-          DEFAULT: "#8040FF",
-        },
-        sky: {
-          DEFAULT: "#08BAFE",
-        },
+      },
+      backgroundImage: {
+        movie: "linear-gradient(116deg, #ffee58 0%, #ff8f00 105%)",
       },
     },
   },

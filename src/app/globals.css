@@ -4,68 +4,34 @@
 
 @layer base {
   h1 {
-    @apply text-1.75xl md:text-2.8xl font-bold text-white;
+    @apply text-2.5xl font-semibold text-white;
   }
   h2 {
-    @apply text-lg md:text-2xl font-semibold text-white;
+    @apply text-2xl font-bold text-white;
   }
   h3 {
-    @apply text-base md:text-xl font-medium text-white;
+    @apply text-1.31xl font-medium text-white;
   }
+
   button {
-    @apply text-base md:text-xl font-bold;
+    @apply text-[15px] font-bold px-4 py-2 bg-primary hover:bg-primary-light;
   }
 }
 
 @layer utilities {
-  .bg-linear {
-    @apply bg-gradient-to-r from-violet to-sky;
-  }
-
   .text-body {
-    @apply text-base font-semibold;
+    @apply text-[17px] font-normal;
   }
 
   .text-sub {
-    @apply text-xs md:text-sm font-semibold;
+    @apply text-[15px]  font-normal;
   }
 
-  .btn {
-    @apply text-base md:text-xl font-bold hover:bg-blue-light text-center;
-  }
-
-  .btn-option {
-    @apply rounded-2xl text-left p-5 
-    data-[attempted=false]:hover:bg-blue-light data-[attempted=true]:cursor-not-allowed
-    flex items-center justify-between;
-  }
-
-  .btn-default {
-    @apply border;
-  }
-
-  .btn-primary {
-    @apply bg-blue;
-  }
-
-  .btn-secondary {
-    @apply bg-blue-light;
-  }
-
-  .btn-correct {
-    @apply bg-green;
-  }
-
-  .btn-incorrect {
-    @apply bg-red border-0;
+  .text-caption {
+    @apply text-[13px]  font-normal;
   }
 
   .icon {
-    @apply w-4 h-4 md:w-5 md:h-5 z-50;
-  }
-
-  .redacted {
-    font-family: var(--ff-redacted);
-    font-weight: 400;
+    @apply w-4 h-4 md:w-5 md:h-5 z-50 text-white hover:text-primary;
   }
 }
