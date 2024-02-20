@@ -21,8 +21,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={bodyFont.className}>
-        <Header />
-        {children}
+        <div className="min-w-screen min-h-screen bg-black text-white">
+          <Header />
+          {children}
+        </div>
         <bds />
       </body>
     </html>

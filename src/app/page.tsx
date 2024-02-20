@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <main className="flex flex-col | min-h-screen ">
+    <main className="container mx-auto">
       This is starting template for Find Movies
     </main>
   );
